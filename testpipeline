@@ -3,7 +3,7 @@ pipeline {
          stages {
                  stage('One') {
                  steps {
-                     echo 'Hi, this is Karthik from India'
+                     echo 'Hi, this is Karthik from India, currently living in USA'
                  }
                  }
                  stage('Two') {
@@ -18,7 +18,7 @@ pipeline {
                        }
                  }
                  steps {
-                       echo "Hello, Welcome to Stage-4"
+                       echo "Hello, Welcome to Stage-3"
                  }
                  }
                  stage('Four') {
